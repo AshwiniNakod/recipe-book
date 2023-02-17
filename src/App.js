@@ -36,7 +36,7 @@ const handleSubmit = (event) =>{
   return (
     <div className="App">
           <div className='container'> 
-              <h2>Our Recipe App</h2> 
+              <h2>Recipe Book</h2> 
               <SearchBar
                 handleSubmit = {handleSubmit}
                 onChange = {event=>setQuery(event.target.value)}
